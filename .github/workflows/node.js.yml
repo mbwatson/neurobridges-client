@@ -37,5 +37,5 @@ jobs:
         username: ${{ secrets.CLIENT_USERNAME }}
         password: ${{ secrets.CLIENT_PASSWORD }}
         port: ${{ secrets.CLIENT_PORT }}
-        source: "tests/a.txt,tests/b.txt"
-        target: "test"
+        source: "build"
+        target: "/var/www/html"
